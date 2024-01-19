@@ -7,6 +7,13 @@ function functionScroll() {
 }
 
 function github() {
-    Confirm("Encaminhando para o github!");
+    // alert("Encaminhando para o github!");
+    var resultado = confirm("Deseja continuar?");
+    if (resultado == true) {
+        alert("Encaminhando para o github!")
+        document.getElementsByClassName("github");
+    } else {
+        
+    }
     
 }
