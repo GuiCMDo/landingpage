@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BalleCoffee</title>
+    <!-- Descrição de busca no google -->
+    <meta name="description" content="Explore dezenas de variações da bebida favorita entre os devs ao redor mundo!">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <!-- span é uma div para conteúdo mais específico, no caso esse texto será nosso logo -->
+            <span class="logo">balecoffee</span>
+            <ul class="menu">
+                <li><a>Home</a></li>
+                <li><a>Receitas</a></li>
+                <li><a>Novidades</a></li>
+                <li><a>Melhor avaliadas</a></li>
+            </ul>
+            <a class="github" onclick="github()" href="https://github.com/gcmdou" target="_blank" rel="noopener noreferrer">Github</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="principal">
+            <section class="hero">
+                <header class="hero-conetudo">
+                    <span class="destaque marrom">novidade</span>
+                    <h1>Encontre a receita perfeita!</h1>
+                    <hr/>
+                    <h2 class="hero-subtitulo">Explore dezenas de variações da bebida favorita entre os devs ao redor mundo!</h2>
+                </header>
+                <div class="hero-imagens-conatiner">
+                    <figure><img src="assets/hero-banner-1.jpg"/></figure>
+                    <figure><img src="assets/hero-banner-2.jpg"/></figure>
+                    <figure><img src="assets/hero-banner-3.jpg"/></figure>
+                    <figure><img src="assets/hero-banner-4.jpg"></figure>
+                    <figure><img src="assets/hero-banner-5.jpg"/></figure>
+                    <figure><img src="assets/hero-banner-6.jpg"/></figure>
+                    <figure><img src="assets/hero-banner-7.jpg"/></figure>
+                    <figure><img src="assets/hero-banner-8.jpg"/></figure>
+                    <figure><img src="assets/hero-banner-9.jpg"/></figure>
+                    <figure><img src="assets/hero-banner-10.jpg"/></figure>
+                    <figure><img src="assets/hero-banner-11.jpg"/></figure>
+                    <figure><img src="assets/hero-banner-12.jpg"/></figure>
+                </div>
+            </section>
+         </div>
+        <section class="botao-container">
+            <button type="button " onclick="functionScroll()">
+                <img src="assets/chevrons-down.svg"/>
+            </button>
+        </section>
+        <section class="receitas">
+            <header class="receitas-cabeçalho">
+                <span class="destaque marrom">receitas</span>
+                <h2 class="receitas-titulo">Confira as últimas receitas</h2>
+                <p class="receitas-subtitulo">Dê uma olhada nas receitas mais amadas!</p>
+            </header>
+
+            <div class="receitas-card-conainer">
+                <div class="receitas-card">
+                    <header class="receitas-card-cabecalho">
+                        <div class="receitas-card-cabecalho-detalhes">
+                            <span class="destaque amarelo">em alta 🔥</span>
+                            <h3 class="receita-titulo">Cappuccino ☕</h3>
+                        </div>
+                        <p class="receita-avaliacao">Extraordinário · 4/4 </p>
+                    </header>
+                    <p class="receita-descricao">Uma bebida ideal para os amantes de doce e cremosidade. 😍</p>
+                    <div class="receita-autor">
+                        <img src="./assets/Foto.jpeg"/>
+                        <span class="receita-autor-nome">Guilherme Dourado</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p class="footer-copy">Copyright &lt;CODEFEE&gt; 2023</p>
+        <p class="footer-autor">Feito com muito ❤ e café por Rafaella Ballerini</p>
+    </footer>
+
+</body>
+</html>
